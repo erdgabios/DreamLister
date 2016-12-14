@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		067305711DFF340A0087C1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067305701DFF340A0087C1D4 /* AppDelegate.swift */; };
-		067305731DFF340A0087C1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067305721DFF340A0087C1D4 /* ViewController.swift */; };
+		067305731DFF340A0087C1D4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067305721DFF340A0087C1D4 /* MainVC.swift */; };
 		067305761DFF340A0087C1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067305741DFF340A0087C1D4 /* Main.storyboard */; };
 		067305791DFF340A0087C1D4 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 067305771DFF340A0087C1D4 /* DreamLister.xcdatamodeld */; };
 		0673057B1DFF340A0087C1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0673057A1DFF340A0087C1D4 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		0673056D1DFF340A0087C1D4 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067305701DFF340A0087C1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		067305721DFF340A0087C1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067305721DFF340A0087C1D4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		067305751DFF340A0087C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067305781DFF340A0087C1D4 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		0673057A1DFF340A0087C1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				067305701DFF340A0087C1D4 /* AppDelegate.swift */,
-				067305721DFF340A0087C1D4 /* ViewController.swift */,
+				067305721DFF340A0087C1D4 /* MainVC.swift */,
 				067305741DFF340A0087C1D4 /* Main.storyboard */,
 				0673057A1DFF340A0087C1D4 /* Assets.xcassets */,
 				0673057C1DFF340A0087C1D4 /* LaunchScreen.storyboard */,
@@ -94,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = erdgabios;
 				TargetAttributes = {
 					0673056C1DFF340A0087C1D4 = {
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067305731DFF340A0087C1D4 /* ViewController.swift in Sources */,
+				067305731DFF340A0087C1D4 /* MainVC.swift in Sources */,
 				067305711DFF340A0087C1D4 /* AppDelegate.swift in Sources */,
 				067305791DFF340A0087C1D4 /* DreamLister.xcdatamodeld in Sources */,
 			);
@@ -186,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +308,7 @@
 				067305841DFF340A0087C1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
