@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0658F2F31E05F09300A75E82 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658F2F21E05F09300A75E82 /* ItemCell.swift */; };
 		067305711DFF340A0087C1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067305701DFF340A0087C1D4 /* AppDelegate.swift */; };
 		067305731DFF340A0087C1D4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067305721DFF340A0087C1D4 /* MainVC.swift */; };
 		067305761DFF340A0087C1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067305741DFF340A0087C1D4 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0658F2F21E05F09300A75E82 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		0673056D1DFF340A0087C1D4 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067305701DFF340A0087C1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067305721DFF340A0087C1D4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				06AAD2011E01EB6B003E679C /* MaterialView.swift */,
+				0658F2F21E05F09300A75E82 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				067305711DFF340A0087C1D4 /* AppDelegate.swift in Sources */,
 				067305791DFF340A0087C1D4 /* DreamLister.xcdatamodeld in Sources */,
 				06AAD2021E01EB6B003E679C /* MaterialView.swift in Sources */,
+				0658F2F31E05F09300A75E82 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
